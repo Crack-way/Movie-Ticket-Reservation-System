@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: movie-service
+          uri: lb://movie-service
+          predicates:
+            - Path=/movie-api/**
+          filters:
+            - AuthenticationFilter
+
+        - id: booking-service
+          uri: lb://booking-service
+          predicates:
+            - Path=/booking-api/**,ticket-api/**
+          filters:
+            - AuthenticationFilter
+
+        - id: payment-service
+          uri: lb://payment-service
+          predicates:
+            - Path=/payment-api/**
+          filters:
+            - AuthenticationFilter
+
+        - id: security-service
+          uri: lb://security-service
+          predicates:
+            - Path=/auth-api/**
+
+        - id: mail-server
+          uri: lb://mail-server
+          predicates:
+            - Path=/mail-api/**
+          filters:
+            - AuthenticationFilter
+
+
+server:
+  port: 8900
+eureka:
+  instance:
+    prefer-ip-address: true

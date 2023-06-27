@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Booking-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Booking-Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Email-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Email-Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MovieCatalogService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MovieCatalogService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MovieTicketReservationSystem.iml" filepath="$PROJECT_DIR$/MovieTicketReservationSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/securityService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/securityService.main.iml" />
+    </modules>
+  </component>
+</project>

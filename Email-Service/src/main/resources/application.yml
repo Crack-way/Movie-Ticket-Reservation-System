@@ -1,0 +1,21 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: mailserver201@gmail.com
+    password: yfimqbyngzctaxce
+    port: 587
+    properties:
+       mail:
+         smtp:
+           starttls:
+             enable: true
+           auth: true
+  application:
+    name: Mail-Server
+
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/Booking-Service
